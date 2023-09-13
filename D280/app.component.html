@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <app-map (countrySelected)="onCountrySelected($event)"></app-map>
+    </div>
+    <div class="col">
+      <app-country-info [country]="selectedCountry"></app-country-info>
+    </div>
+  </div>
+</div>
